@@ -41,6 +41,13 @@ npm run dev
 ```
 This will start the backend server on http://localhost:8800/.
 
+2. Start the frontend server
+```
+cd numentech/client
+npm run dev
+```
+This will start the frontend server on http://localhost:5173/.
+
 ## Note
 The above command could be simplified with a single command if the project was containerized
 
