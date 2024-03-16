@@ -4,7 +4,11 @@ import WritePost from '../components/WritePost';
 import { useSelector } from 'react-redux';
 
 
-
+/* 
+Note: This project contains secrete keys which are used to authenticate the user.
+These keys are stored in the .env file in the root directory of the project.
+Normally .env files are ignored, and never to be pushed, especially to a public repository, but at the nature of this project, .env is pushed to facilitate testing.
+*/
 const Home = () => {
   const { currentUser, loading, error } = useSelector((state) => state.user);
   const [posts, setPosts] = useState([]);
