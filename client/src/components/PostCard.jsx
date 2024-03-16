@@ -43,9 +43,9 @@ const PostCard = ({ post, onDelete, onUpdate, onPostDeleted}) => {
                 onClick={handleDeleteClicked}
               ></div>
               <div className="relative bg-white p-6 rounded-lg shadow-md w-96">
-                <p className="text-lg text-center">{post.title} </p>
+                <p className="text-lg text-center">Are you sure you want to delete?</p>
                 <p className="text-slate-700 text-center mb-4 font-semibold max-w-xs w-full overflow-clip truncate">
-                  {post.subTitle}
+                  {post.title}
                 </p>
 
                 <div className="flex justify-center">
